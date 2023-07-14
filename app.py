@@ -90,11 +90,6 @@ def main():
            st.write(f"The severity prediction is serious injury")
        else:
            st.write(f"The severity prediction is slight injury")
-        
-       st.write("Developed By: Avi kumar Talaviya")
-       st.markdown("""Reach out to me on: [Twitter](https://twitter.com/avikumart_) |
-       [Linkedin](https://www.linkedin.com/in/avi-kumar-talaviya-739153147/) |
-       [Kaggle](https://www.kaggle.com/avikumart) 
        """)
 
     a,b,c = st.columns([0.2,0.6,0.2])
@@ -118,7 +113,7 @@ def main():
         The metric for evaluation will be f1-score
         """)
 
-        st.markdown("Please find GitHub repository link of project: [Click Here](https://github.com/avikumart/Road-Traffic-Severity-Classification-Project)")          
+        st.markdown("Please find GitHub repository link of project: [Click Here](https://github.com/AksharGoyal/accident-severity-prediction-streamlit-app)")          
   
 # run the main function        
 if __name__ == '__main__':
