@@ -90,8 +90,7 @@ def main():
            st.write(f"The severity prediction is serious injury")
        else:
            st.write(f"The severity prediction is slight injury")
-
-       """)
+)
 
     a,b,c = st.columns([0.2,0.6,0.2])
     with b:
